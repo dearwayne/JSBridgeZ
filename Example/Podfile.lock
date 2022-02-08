@@ -1,0 +1,16 @@
+PODS:
+  - JSBridgeZ (0.1.0)
+
+DEPENDENCIES:
+  - JSBridgeZ (from `../`)
+
+EXTERNAL SOURCES:
+  JSBridgeZ:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSBridgeZ: 0865601fb138480030df1070f86738dbc31ff050
+
+PODFILE CHECKSUM: 5a9bbf6baf968f713d74477c412dae8f96e8562b
+
+COCOAPODS: 1.11.2

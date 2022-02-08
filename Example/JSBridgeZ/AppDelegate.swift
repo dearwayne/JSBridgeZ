@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  JSBridgeZ
 //
-//  Created by weiqizheng on 02/08/2022.
-//  Copyright (c) 2022 weiqizheng. All rights reserved.
+//  Created by dearwayne on 02/08/2022.
+//  Copyright (c) 2022 dearwayne. All rights reserved.
 //
 
 import UIKit

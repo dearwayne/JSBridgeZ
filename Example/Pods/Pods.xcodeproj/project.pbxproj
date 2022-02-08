@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AEDA3D5935F7BBB7C6849B7ED4DA6BD /* JSBridgeZ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E42F0B9DF606A0A68049EC26F22055 /* JSBridgeZ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6F3599B79230325D7A3F1900D3BB11 /* Pods-JSBridgeZ_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02319523A847AFD2A45FD562A72A47D /* Pods-JSBridgeZ_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FBB50A4316343181A6CCEFFB621FB1D /* JSBridgeZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58101FE04BA739800C5852758ECF9B5 /* JSBridgeZ.swift */; };
+		A1A7D16B872ABED53B62C842298EFE36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF64E1EC3D7FFCC4349FCDCAD698C627 /* Pods-JSBridgeZ_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 433398CCD2BF7A1BA42A599949917F00 /* Pods-JSBridgeZ_Example-dummy.m */; };
+		D427B913A2A93644641F87112505A8A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E740330513E09A94B8D2EEC06FDA3320 /* JSBridgeZ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3666C1ED027539C49CE5EAE33F554332 /* JSBridgeZ-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E1B487D54869C3A067BD3ED46DCA061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB72C6F93D0120E0AFCA004D0ECF79A7;
+			remoteInfo = JSBridgeZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB12317087769B5BD260A6891F5B282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		114539B9280CA8B13EDD0E551A959231 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3666C1ED027539C49CE5EAE33F554332 /* JSBridgeZ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSBridgeZ-dummy.m"; sourceTree = "<group>"; };
+		42A043844A6FC39E9193BBE94345DEBA /* JSBridgeZ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSBridgeZ.modulemap; sourceTree = "<group>"; };
+		433398CCD2BF7A1BA42A599949917F00 /* Pods-JSBridgeZ_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSBridgeZ_Example-dummy.m"; sourceTree = "<group>"; };
+		4828B4CDAC6A8B91E476BBA1CEB62349 /* Pods-JSBridgeZ_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JSBridgeZ_Example"; path = Pods_JSBridgeZ_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE4FC645C13BA9D653D4CFA0AB8EECD /* JSBridgeZ.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSBridgeZ.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62B5DF2B49CF93D54AEF8B758F9933A7 /* Pods-JSBridgeZ_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBridgeZ_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		62C0A26DC9977CB61A5F9614CF3EF635 /* JSBridgeZ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSBridgeZ-prefix.pch"; sourceTree = "<group>"; };
+		6CEBD76EFE1765496D67DBBC9D44FAF0 /* JSBridgeZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSBridgeZ.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		731F80787040D47229A7F87B946457B8 /* Pods-JSBridgeZ_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSBridgeZ_Example-Info.plist"; sourceTree = "<group>"; };
+		79DB52CD130193387E5D0E67F57131D7 /* Pods-JSBridgeZ_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSBridgeZ_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8452446EC910401F7A22C535446C0341 /* Pods-JSBridgeZ_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSBridgeZ_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D5C1BBAF391393E71FDE49A866319B7 /* Pods-JSBridgeZ_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSBridgeZ_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02319523A847AFD2A45FD562A72A47D /* Pods-JSBridgeZ_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSBridgeZ_Example-umbrella.h"; sourceTree = "<group>"; };
+		AEB5B36F1815D5F92579D5E590F22E7F /* JSBridgeZ-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSBridgeZ-Info.plist"; sourceTree = "<group>"; };
+		C30C176DC6E9F8ED342F329A87EDAE56 /* JSBridgeZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSBridgeZ.release.xcconfig; sourceTree = "<group>"; };
+		C5BD2FD0B8C377BAEBB4C243E5CFB1F7 /* Pods-JSBridgeZ_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBridgeZ_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C7F50C1B4D116DAC2B5CF217A23168C0 /* Pods-JSBridgeZ_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSBridgeZ_Example.modulemap"; sourceTree = "<group>"; };
+		D2E42F0B9DF606A0A68049EC26F22055 /* JSBridgeZ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSBridgeZ-umbrella.h"; sourceTree = "<group>"; };
+		D3D88EE8A159A04FEDB7B03DBF846AE9 /* JSBridgeZ */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSBridgeZ; path = JSBridgeZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58101FE04BA739800C5852758ECF9B5 /* JSBridgeZ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSBridgeZ.swift; path = JSBridgeZ/Classes/JSBridgeZ.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823A75740F40EC2D947E55174003E005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A7D16B872ABED53B62C842298EFE36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1867C887E525E5D8BDC2285B7F28BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D427B913A2A93644641F87112505A8A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540BE6423A4BD203762D93B438232477 /* JSBridgeZ */ = {
+			isa = PBXGroup;
+			children = (
+				F58101FE04BA739800C5852758ECF9B5 /* JSBridgeZ.swift */,
+				EB3B48A20912B1491DCE848A80F7ADFA /* Pod */,
+				F3F6240CE9F67DCB1F537A3CD38FFEF5 /* Support Files */,
+			);
+			name = JSBridgeZ;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		595E8705A57DD0033285EBE274D920DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D10ED9107524A6F5F0AC6D4875733 /* Pods-JSBridgeZ_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9C788430D8E48E1742F89B3B70A7EF8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				540BE6423A4BD203762D93B438232477 /* JSBridgeZ */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A9C788430D8E48E1742F89B3B70A7EF8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D01436B464438604620E0E955733C3F8 /* Products */,
+				595E8705A57DD0033285EBE274D920DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D01436B464438604620E0E955733C3F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D88EE8A159A04FEDB7B03DBF846AE9 /* JSBridgeZ */,
+				4828B4CDAC6A8B91E476BBA1CEB62349 /* Pods-JSBridgeZ_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB3B48A20912B1491DCE848A80F7ADFA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5BE4FC645C13BA9D653D4CFA0AB8EECD /* JSBridgeZ.podspec */,
+				114539B9280CA8B13EDD0E551A959231 /* LICENSE */,
+				0BB12317087769B5BD260A6891F5B282 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F3F6240CE9F67DCB1F537A3CD38FFEF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42A043844A6FC39E9193BBE94345DEBA /* JSBridgeZ.modulemap */,
+				3666C1ED027539C49CE5EAE33F554332 /* JSBridgeZ-dummy.m */,
+				AEB5B36F1815D5F92579D5E590F22E7F /* JSBridgeZ-Info.plist */,
+				62C0A26DC9977CB61A5F9614CF3EF635 /* JSBridgeZ-prefix.pch */,
+				D2E42F0B9DF606A0A68049EC26F22055 /* JSBridgeZ-umbrella.h */,
+				6CEBD76EFE1765496D67DBBC9D44FAF0 /* JSBridgeZ.debug.xcconfig */,
+				C30C176DC6E9F8ED342F329A87EDAE56 /* JSBridgeZ.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSBridgeZ";
+			sourceTree = "<group>";
+		};
+		FF4D10ED9107524A6F5F0AC6D4875733 /* Pods-JSBridgeZ_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C7F50C1B4D116DAC2B5CF217A23168C0 /* Pods-JSBridgeZ_Example.modulemap */,
+				79DB52CD130193387E5D0E67F57131D7 /* Pods-JSBridgeZ_Example-acknowledgements.markdown */,
+				8452446EC910401F7A22C535446C0341 /* Pods-JSBridgeZ_Example-acknowledgements.plist */,
+				433398CCD2BF7A1BA42A599949917F00 /* Pods-JSBridgeZ_Example-dummy.m */,
+				8D5C1BBAF391393E71FDE49A866319B7 /* Pods-JSBridgeZ_Example-frameworks.sh */,
+				731F80787040D47229A7F87B946457B8 /* Pods-JSBridgeZ_Example-Info.plist */,
+				A02319523A847AFD2A45FD562A72A47D /* Pods-JSBridgeZ_Example-umbrella.h */,
+				62B5DF2B49CF93D54AEF8B758F9933A7 /* Pods-JSBridgeZ_Example.debug.xcconfig */,
+				C5BD2FD0B8C377BAEBB4C243E5CFB1F7 /* Pods-JSBridgeZ_Example.release.xcconfig */,
+			);
+			name = "Pods-JSBridgeZ_Example";
+			path = "Target Support Files/Pods-JSBridgeZ_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59D96D4A9DE10D6F9073A80D7D0A882E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AEDA3D5935F7BBB7C6849B7ED4DA6BD /* JSBridgeZ-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB3BF534AF0154DE15EF5FF5EF0443B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6F3599B79230325D7A3F1900D3BB11 /* Pods-JSBridgeZ_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A350DE11B8A89BC702DFC85BFB470CB /* Pods-JSBridgeZ_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F60B783AEF11A102C7211CF8E2D2370 /* Build configuration list for PBXNativeTarget "Pods-JSBridgeZ_Example" */;
+			buildPhases = (
+				7CB3BF534AF0154DE15EF5FF5EF0443B /* Headers */,
+				E492CFECBBC49358D08F92E7F1165B2F /* Sources */,
+				CA1867C887E525E5D8BDC2285B7F28BE /* Frameworks */,
+				2CEF57C2CB3E5C62C3201E50E65F8B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC7B960F3DDC2E3A1D0C266E73F5230 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSBridgeZ_Example";
+			productName = Pods_JSBridgeZ_Example;
+			productReference = 4828B4CDAC6A8B91E476BBA1CEB62349 /* Pods-JSBridgeZ_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB72C6F93D0120E0AFCA004D0ECF79A7 /* JSBridgeZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24BDAF006B9B363ABAFCABA4CF97396 /* Build configuration list for PBXNativeTarget "JSBridgeZ" */;
+			buildPhases = (
+				59D96D4A9DE10D6F9073A80D7D0A882E /* Headers */,
+				A7FFEE738D1E5D0742BD3DBE12684B88 /* Sources */,
+				823A75740F40EC2D947E55174003E005 /* Frameworks */,
+				DD0DAAA47BD028525FFF886477770F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSBridgeZ;
+			productName = JSBridgeZ;
+			productReference = D3D88EE8A159A04FEDB7B03DBF846AE9 /* JSBridgeZ */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D01436B464438604620E0E955733C3F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB72C6F93D0120E0AFCA004D0ECF79A7 /* JSBridgeZ */,
+				1A350DE11B8A89BC702DFC85BFB470CB /* Pods-JSBridgeZ_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CEF57C2CB3E5C62C3201E50E65F8B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0DAAA47BD028525FFF886477770F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FFEE738D1E5D0742BD3DBE12684B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBB50A4316343181A6CCEFFB621FB1D /* JSBridgeZ.swift in Sources */,
+				E740330513E09A94B8D2EEC06FDA3320 /* JSBridgeZ-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E492CFECBBC49358D08F92E7F1165B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF64E1EC3D7FFCC4349FCDCAD698C627 /* Pods-JSBridgeZ_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC7B960F3DDC2E3A1D0C266E73F5230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSBridgeZ;
+			target = BB72C6F93D0120E0AFCA004D0ECF79A7 /* JSBridgeZ */;
+			targetProxy = 0E1B487D54869C3A067BD3ED46DCA061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DA0015B4E2C2D7EB6C4BAB2DAC39ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B5DF2B49CF93D54AEF8B758F9933A7 /* Pods-JSBridgeZ_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSBridgeZ_Example/Pods-JSBridgeZ_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBridgeZ_Example/Pods-JSBridgeZ_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36D4AFFF3F3BC062FD0C0663FF0796D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BD2FD0B8C377BAEBB4C243E5CFB1F7 /* Pods-JSBridgeZ_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSBridgeZ_Example/Pods-JSBridgeZ_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBridgeZ_Example/Pods-JSBridgeZ_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		393C5F410459123FD3C83C6484227E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEBD76EFE1765496D67DBBC9D44FAF0 /* JSBridgeZ.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSBridgeZ/JSBridgeZ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSBridgeZ/JSBridgeZ-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSBridgeZ/JSBridgeZ.modulemap";
+				PRODUCT_MODULE_NAME = JSBridgeZ;
+				PRODUCT_NAME = JSBridgeZ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		452AFFA34A3003F5AF1775813D27EFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30C176DC6E9F8ED342F329A87EDAE56 /* JSBridgeZ.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSBridgeZ/JSBridgeZ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSBridgeZ/JSBridgeZ-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSBridgeZ/JSBridgeZ.modulemap";
+				PRODUCT_MODULE_NAME = JSBridgeZ;
+				PRODUCT_NAME = JSBridgeZ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F60B783AEF11A102C7211CF8E2D2370 /* Build configuration list for PBXNativeTarget "Pods-JSBridgeZ_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA0015B4E2C2D7EB6C4BAB2DAC39ACF /* Debug */,
+				36D4AFFF3F3BC062FD0C0663FF0796D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24BDAF006B9B363ABAFCABA4CF97396 /* Build configuration list for PBXNativeTarget "JSBridgeZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393C5F410459123FD3C83C6484227E0D /* Debug */,
+				452AFFA34A3003F5AF1775813D27EFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
