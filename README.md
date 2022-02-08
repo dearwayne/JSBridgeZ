@@ -35,7 +35,6 @@ pod 'JSBridgeZ'
 	```swift
 	webView.bridge
 	    .set(name: "jsbridge")
-	    .addVariable(key: "variable", value: .string("testing"))
 	    .addHanlder(name: "handleObject", params: ["objc"], handler: { (data, callback) in
                 var objc:[String:Any] = [:]
                 if let dic = data as? [String:Any],let params = dic["objc"] as? [String:Any] {
